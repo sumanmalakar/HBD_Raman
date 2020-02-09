@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*----header CSS----*/
+
+#particles-js {
+    height: 100%;
+    background-color: #85144b;
+
+    /* background: #e74; */
+    overflow: hidden;
+  
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    height: 100vh;
+}
+
+.user-box {
+    text-align: center;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 1000px; */
+    height: 600px;
+}
+
+.user-box .user img {
+    
+    border-radius: 50%;
+    width: 300px;
+    border: 2px solid yellowgreen;
+    /* z-index: 1000; */
+
+}
+
+.user-box h1 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
+}
+
+.user-box p {
+    color: #FFFFFF;
+}
+
+.user-box .box h1{
+    margin:0 0 10px;
+    padding:0;
+    color:#FFFFFF;
+    font-size:24px;
+}
+.user-box .box{
+    /* background-color: brown; */
+    width: 400px;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%);
+    }
+   
+
+    .social {
+        /* width:100%;
+    height: 50vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* background:yellow; */
+        /* margin-top:5rem; */
+    }
+
+    .social .social-button a {
+        display: inline-flex;
+        text-decoration: none;
+        font-size: 17px;
+        width: 35px;
+        height: 35px;
+        color: #fff;
+        justify-content: center;
+        /* background: red; */
+        align-items: center;
+        position: relative;
+        /* margin: 0 8px; */
+        padding: 21px;
+        transition: 0.3s ease-in;
+    }
+
+    .social .social-button a::before {
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        /* background: linear-gradient(45deg,#00d2d3,#576574); */
+        /* background: linear-gradient(45deg,#feca57,#ff9f43); */
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+        border-radius: 50%;
+        z-index: -1;
+        transition: 0.3s ease-in;
+    }
+
+    .social .social-button a:hover::before {
+        transform: scale(0);
+        color: #ffffff;
+
+    }
+
+    .social .social-button a i {
+        transition: 0.3s ease-in;
+    }
+
+    .social .social-button a:hover i {
+        background: linear-gradient(45deg, #00d2d3, #576574);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: scale(2.2);
+
+    }

@@ -1,0 +1,170 @@
+@media screen and (max-width: 768px)
+{
+
+    .user-box h1{
+        padding-top:50px;
+        font-size:2em;
+       
+    }
+
+    .Education .con2{
+        /* height:6px; */
+    }
+    .h1{
+        color:black;
+        padding-top:10px;
+    }
+    .h4{
+        color:blue;
+        padding-top:2px;
+    }
+    p{
+        padding-top:0px;
+        color:black;
+    }
+    .contact .con4{
+        height:500px;
+    }
+    .contact .row{
+        padding-top:10px;
+        font-size:25px;
+        font-weight:lighter;
+    }
+    .icons i{
+   
+        line-height: 50px;
+        font-size:30px;
+        transition:0.25 linear;
+        color:blue;
+    }
+    .icons:hover i{
+        transform:scale(1.5);
+        color:blue;
+    }
+    
+.footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+    padding-top:10px;
+}
+.footer p{
+    color:silver;
+    font-size: 20px;
+}
+
+}
+@media only screen and (max-width: 768px ){
+
+    body{
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    .user-box .box{
+        top: 60%;
+        width: 250px;
+    }
+    .user-box .user img{
+        border-radius:50%;
+        width:250px;
+      border:2px solid blue;
+    }
+    .user-box h1{
+        padding-top:20px;
+        font-size:1.4em;
+    }
+    
+
+.a h1{
+    color:#FFFFFF;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5em;
+    padding-top:5px;
+}
+
+.a p{
+    color:black;
+    padding-top:0px;
+    padding-bottom:50px;
+    /* font-family: 'Lobster', cursive; */
+    font-size: 14px;
+    word-spacing: 5px;
+} 
+.Education{
+    height: 100vh;
+    background:url(img/3.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.Education .container{
+    height:auto;
+    margin-bottom: 50px;
+    padding-bottom: 20rem;
+}  
+.Education .con2{
+    padding-bottom: 5px;
+}
+
+.Education .con2 h1{
+font-size:1.5em;
+
+}
+.Education .con2 a{
+    font-size:0.8em;
+}
+.Education .con2 .p {
+    font-size: 0.6em;
+}
+.Education .con2 h4 {
+    font-size: 0.8em;
+}
+.Education .con2 p{
+    font-size:0.8em;
+}
+.Skills{
+    height: 100vh;
+    background:url(img/f.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.con3 h1{
+    font-size: 1.5em;
+
+}
+.Skills .con3{
+ height:380px;
+}
+.skills-bar p{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-top:0.5px; */
+    margin-left:20px;
+    color:yellow;
+}
+
+.contact{
+    height: 100vh;
+    background:url(img/cs.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact .con4{
+    height:380px;
+}
+.contact .con4 h1{
+    font-size: 1.5em;
+    padding-top:15px;
+    color:black;
+}
+.contact .col-md-6 .fa{
+    color:black;
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+
+}
